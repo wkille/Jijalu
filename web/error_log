@@ -1,0 +1,184 @@
+[22-Dec-2020 14:39:34 Europe/London] PHP Fatal error:  Uncaught yii\base\InvalidArgumentException: The directory does not exist: ..//home/jimmajam/webdesign.jimmajammalulu.co.uk in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php:244
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(376): yii\base\Module->setBasePath('..//home/jimmaj...')
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(229): yii\base\Application->setBasePath('..//home/jimmaj...')
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(208): yii\base\Application->preInit(Array)
+#3 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(12): yii\base\Application->__construct(Array)
+#4 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php on line 244
+[22-Dec-2020 14:39:43 Europe/London] PHP Fatal error:  Uncaught yii\base\InvalidArgumentException: The directory does not exist: ..//home/jimmajam/webdesign.jimmajammalulu.co.uk in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php:244
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(376): yii\base\Module->setBasePath('..//home/jimmaj...')
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(229): yii\base\Application->setBasePath('..//home/jimmaj...')
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(208): yii\base\Application->preInit(Array)
+#3 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(12): yii\base\Application->__construct(Array)
+#4 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php on line 244
+[22-Dec-2020 14:39:55 Europe/London] PHP Fatal error:  Uncaught yii\base\InvalidArgumentException: The directory does not exist: ..//home/jimmajam/webdesign.jimmajammalulu.co.uk in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php:244
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(376): yii\base\Module->setBasePath('..//home/jimmaj...')
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(229): yii\base\Application->setBasePath('..//home/jimmaj...')
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(208): yii\base\Application->preInit(Array)
+#3 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(12): yii\base\Application->__construct(Array)
+#4 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php on line 244
+[22-Dec-2020 14:40:00 Europe/London] PHP Fatal error:  Uncaught yii\base\InvalidArgumentException: The directory does not exist: ..//home/jimmajam/webdesign.jimmajammalulu.co.uk in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php:244
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(376): yii\base\Module->setBasePath('..//home/jimmaj...')
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(229): yii\base\Application->setBasePath('..//home/jimmaj...')
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(208): yii\base\Application->preInit(Array)
+#3 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(12): yii\base\Application->__construct(Array)
+#4 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php on line 244
+[22-Dec-2020 14:40:08 Europe/London] PHP Fatal error:  Uncaught yii\base\InvalidArgumentException: The directory does not exist: .//home/jimmajam/webdesign.jimmajammalulu.co.uk in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php:244
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(376): yii\base\Module->setBasePath('.//home/jimmaja...')
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(229): yii\base\Application->setBasePath('.//home/jimmaja...')
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(208): yii\base\Application->preInit(Array)
+#3 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(12): yii\base\Application->__construct(Array)
+#4 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php on line 244
+[22-Dec-2020 14:40:12 Europe/London] PHP Fatal error:  Uncaught yii\base\InvalidArgumentException: The directory does not exist: .//home/jimmajam/webdesign.jimmajammalulu.co.uk in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php:244
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(376): yii\base\Module->setBasePath('.//home/jimmaja...')
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(229): yii\base\Application->setBasePath('.//home/jimmaja...')
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(208): yii\base\Application->preInit(Array)
+#3 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(12): yii\base\Application->__construct(Array)
+#4 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php on line 244
+[22-Dec-2020 15:06:34 Europe/London] PHP Warning:  dirname() expects at least 1 parameter, 0 given in /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php on line 8
+[22-Dec-2020 15:06:34 Europe/London] PHP Fatal error:  Uncaught yii\base\InvalidConfigException: The "basePath" configuration for the Application is required. in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php:232
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(208): yii\base\Application->preInit(Array)
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(12): yii\base\Application->__construct(Array)
+#2 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php on line 232
+[22-Dec-2020 15:32:26 Europe/London] PHP Fatal error:  Uncaught yii\base\InvalidArgumentException: The directory does not exist: /home/jimmajamdesign.jimmajammalulu.co.uk in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php:244
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(376): yii\base\Module->setBasePath('/home/jimmajamd...')
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(229): yii\base\Application->setBasePath('/home/jimmajamd...')
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(208): yii\base\Application->preInit(Array)
+#3 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(12): yii\base\Application->__construct(Array)
+#4 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php on line 244
+[22-Dec-2020 15:32:30 Europe/London] PHP Fatal error:  Uncaught yii\base\InvalidArgumentException: The directory does not exist: /home/jimmajamdesign.jimmajammalulu.co.uk in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php:244
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(376): yii\base\Module->setBasePath('/home/jimmajamd...')
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(229): yii\base\Application->setBasePath('/home/jimmajamd...')
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Application.php(208): yii\base\Application->preInit(Array)
+#3 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(12): yii\base\Application->__construct(Array)
+#4 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/base/Module.php on line 244
+[22-Dec-2020 15:46:19 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:46:54 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:47:02 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:47:58 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:49:01 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:49:05 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:50:10 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:50:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:50:58 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:51:07 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:51:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:51:55 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:51:57 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 15:51:58 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getUrlManager() on null in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php:442
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php(279): yii\helpers\BaseUrl::getUrlManager()
+#1 /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php(8): yii\helpers\BaseUrl::base()
+#2 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require('/home/jimmajam/...')
+#3 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/vendor/yiisoft/yii2/helpers/BaseUrl.php on line 442
+[22-Dec-2020 16:19:36 Europe/London] PHP Fatal error:  Uncaught Error: Class 'http\Client\Request' not found in /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php:5
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require()
+#1 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php on line 5
+[22-Dec-2020 16:19:41 Europe/London] PHP Fatal error:  Uncaught Error: Class 'http\Client\Request' not found in /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php:5
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require()
+#1 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php on line 5
+[22-Dec-2020 16:20:08 Europe/London] PHP Fatal error:  Uncaught Error: Class 'http\Client\Request' not found in /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php:5
+Stack trace:
+#0 /home/jimmajam/webdesign.jimmajammalulu.co.uk/web/index.php(10): require()
+#1 {main}
+  thrown in /home/jimmajam/webdesign.jimmajammalulu.co.uk/config/web.php on line 5

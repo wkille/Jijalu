@@ -18,26 +18,51 @@ HomeAsset::register($this);
 <html lang="<?php echo Yii::$app->language ?>">
 
 <head>
-
-    <meta charset="<?php echo Yii::$app->charset ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Landing Page - Start Bootstrap Theme</title>
-
+    <meta charset="<?= Yii::$app->charset ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php $this->registerCsrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <?php $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/ico', 'href' => '/favicon.ico']); ?>
 </head>
 
 <body>
 <?php echo $this->beginBody() ?>
-<!-- Navigation -->
-<nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <a class="btn btn-primary" href="#">Sign In</a>
-    </div>
-</nav>
+
+<?php
+NavBar::begin([
+    'brandLabel' => Yii::$app->name,
+    'brandUrl' => Yii::$app->homeUrl,
+    'options' => [
+        'class' => 'fixed-top navbar-expand-lg navbar-dark bg-dark',
+    ],
+]);
+echo Nav::widget([
+    'options' => ['class' => 'navbar-nav ml-auto'],
+    'items' => [
+        ['label' => 'Home', 'url' => ['/site/index']],
+        ['label' => 'About', 'url' => ['/site/about']],
+        ['label' => 'Contact', 'url' => ['/site/contact']],
+        /*
+        Yii::$app->user->isGuest ? (
+            ['label' => 'Login', 'url' => ['/site/login']]
+        ) : (
+            '<li>'
+            . Html::beginForm(['/site/logout'], 'post')
+            . Html::submitButton(
+                'Logout (' . Yii::$app->user->identity->username . ')',
+                ['class' => 'btn btn-link logout']
+            )
+            . Html::endForm()
+            . '</li>'
+        )
+        */
+    ],
+]);
+NavBar::end();
+?>
 
 <?php echo $content ?>
 

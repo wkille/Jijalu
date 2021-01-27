@@ -44,6 +44,18 @@ echo Nav::widget([
     'items' => [
         ['label' => 'Home', 'url' => ['/site/index']],
         ['label' => 'About', 'url' => ['/site/about']],
+        /*['label' => 'Services', 'url' => ['/site/services']],*/
+        [
+            'label' => 'Services',
+            'items' => [
+                ['label' => 'Service 1', 'url' => '#'],
+                '<div class="dropdown-divider"></div>',
+                '<div class="dropdown-header">Service 2</div>',
+                ['label' => 'Service 2A', 'url' => '#'],
+                ['label' => 'Service 2B', 'url' => '#'],
+            ],
+        ],
+        ['label' => 'Web Design', 'url' => ['/site/web-design']],
         ['label' => 'Contact', 'url' => ['/site/contact']],
         /*
         Yii::$app->user->isGuest ? (

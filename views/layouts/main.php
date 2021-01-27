@@ -42,6 +42,8 @@ PageAsset::register($this);
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
+            ['label' => 'Services', 'url' => ['/site/services']],
+            ['label' => 'Web Design', 'url' => ['/site/web-design']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
             /*
             Yii::$app->user->isGuest ? (

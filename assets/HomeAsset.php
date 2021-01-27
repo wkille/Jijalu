@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
  */
 class HomeAsset extends AssetBundle {
     //public $sourcePath = ''; //where the assets are located when they're not in the web accessible directory (they will be copied into the web accessible directory)
-    public $basePath = '@webroot'; //where the assets are located when in the web accessible directory (web or public_html etc)
+    public $basePath = '@webroot'; //where the assets are located when in the web accessible directory (web or web etc)
     public $baseUrl = '@web'; //url where assets are located
     public $css = [
         //YII_ENV_DEV ? 'vendor/fontawesome-free/css/all.css' : 'vendor/fontawesome-free/css/all.min.css',

@@ -36,6 +36,23 @@ header.masthead h1 {
     font-size: 2rem
 }
 
+header.masthead .green-btn {
+    border-radius: 50%;
+    padding: 20px 25px;
+    background-color: rgba(30,158,107,0.8);
+    border-color: rgb(30,158,107);
+    box-shadow: 0 0 0 0 rgb(30 158 107 / 70%);
+    -webkit-animation: pulse 1s cubic-bezier(.09,.72,.72,.7);
+    -moz-animation: pulse 1s infinite cubic-bezier(.09,.72,.72,.7);
+    -ms-animation: pulse 1s infinite cubic-bezier(.09,.72,.72,.7);
+    animation: pulse 1s infinite cubic-bezier(.09,.72,.72,.7);
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 25px rgba(30,158,107, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 25px rgba(30,158,107, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 25px rgba(30,158,107, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 25px rgba(30,158,107, 0);}}
+
 @media (min-width: 768px) {
     header.masthead {
         padding-top: 12rem;
@@ -101,6 +118,7 @@ header.masthead h1 {
     position: relative;
     background-color: #343a40;
     background: url(../img/bg-masthead.jpg) no-repeat center center;
+    background: #343a40;
     background-size: cover;
     padding-top: 7rem;
     padding-bottom: 7rem

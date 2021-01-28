@@ -2,6 +2,8 @@
 
 /* @var $this yii\web\View */
 
+use yii\helpers\Html;
+
 $this->title = 'Site main title';
 ?>
 
@@ -12,6 +14,13 @@ $this->title = 'Site main title';
         <div class="row">
             <div class="col-xl-9 mx-auto">
                 <h1 class="mb-5"><em>The town's</em> number one place for <em>things</em></h1>
+            </div>
+            <div class="d-block d-sm-none mx-auto">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <a href="tel:+44##########" class="btn btn-primary custom-button green-btn"><i class="fa fa-3x fa-phone"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -57,24 +66,24 @@ $this->title = 'Site main title';
     <div class="container-fluid p-0">
         <div class="row no-gutters">
 
-            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background:red;"></div>
             <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                <h2>Fully Responsive Design</h2>
-                <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+                <h2>One thing</h2>
+                <p class="lead mb-0">We do things and this is just one thing!</p>
             </div>
         </div>
         <div class="row no-gutters">
-            <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+            <div class="col-lg-6 text-white showcase-img" style="background:green;"></div>
             <div class="col-lg-6 my-auto showcase-text">
-                <h2>Updated For Bootstrap 4</h2>
-                <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+                <h2>Another thing</h2>
+                <p class="lead mb-0">Another thing we do!</p>
             </div>
         </div>
         <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background:blue;"></div>
             <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                <h2>Easy to Use &amp; Customize</h2>
-                <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+                <h2>And another thing</h2>
+                <p class="lead mb-0">This describes the third best thing we do!</p>
             </div>
         </div>
     </div>
@@ -83,27 +92,27 @@ $this->title = 'Site main title';
 <!-- Testimonials -->
 <section class="testimonials text-center bg-light">
     <div class="container">
-        <h2 class="mb-5">What people are saying...</h2>
+        <h2 class="mb-5">Reviews</h2>
         <div class="row">
             <div class="col-lg-4">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-                    <h5>Margaret E.</h5>
-                    <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+                    <img class="img-fluid rounded-circle mb-3" src="img/man-face-1jpg" alt="">
+                    <h5>Name X.</h5>
+                    <p class="font-weight-light mb-0">"How great is this!"</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-                    <h5>Fred S.</h5>
-                    <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+                    <img class="img-fluid rounded-circle mb-3" src="img/woman-face-2.jpg" alt="">
+                    <h5>Name Y.</h5>
+                    <p class="font-weight-light mb-0">"I love it so much!"</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-                    <h5>Sarah W.</h5>
-                    <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+                    <img class="img-fluid rounded-circle mb-3" src="img/man-face-3.jpg" alt="">
+                    <h5>Name Z.</h5>
+                    <p class="font-weight-light mb-0">"Totally not bad!"</p>
                 </div>
             </div>
         </div>
@@ -116,19 +125,7 @@ $this->title = 'Site main title';
     <div class="container">
         <div class="row">
             <div class="col-xl-9 mx-auto">
-                <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-            </div>
-            <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                <form>
-                    <div class="form-row">
-                        <div class="col-12 col-md-9 mb-2 mb-md-0">
-                            <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-                        </div>
-                    </div>
-                </form>
+                <h2 class="mb-4"><?= Html::a('Contact us '.Html::tag('i', '', ['class' => 'fa fa-fw fa-angle-double-right']), ['site/contact'], ['class' => '', 'title' => 'Contact Us']) ?></h2>
             </div>
         </div>
     </div>

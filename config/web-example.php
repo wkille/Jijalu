@@ -59,7 +59,7 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 '/' => 'site/index',
-                '<action:(about|contact|error|login)>' => 'site/<action>'
+                '<action:(about|contact|error|login|web-design)>' => 'site/<action>'
             ],
         ],
         'assetManager' => [
